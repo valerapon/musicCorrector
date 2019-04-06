@@ -15,4 +15,5 @@ Example:
 ./Oberton tmp/1.wav 1 0 output.wav  
 
 ### Addition:
-Folder \"tmp\" contain compiled files, music example: 1.wav 
+Folder \"tmp\" contain compiled files, music example: 1.wav  
+Folder \"Music\" contain \"Complex\" class, functions ft and fft and other    
