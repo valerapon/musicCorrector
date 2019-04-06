@@ -13,3 +13,6 @@ g++ Equalizer.cpp Music/Music.cpp -o Equalizer
 ./(Name) (input audiofile) (size of block in sec) (factor) (output audiofile)  
 Example:  
 ./Oberton tmp/1.wav 1 0 output.wav  
+
+### Addition:
+Folder \"tmp\" contain compiled files, music example: 1.wav 
