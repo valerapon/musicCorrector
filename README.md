@@ -1,8 +1,8 @@
 # musicCorrector
 
-Oberton - to delete spectrum point lower then factor  
-Change - to move spectrum to specified position  
-Equalizer - to multiply spectrum on linear function  
+<strong>Oberton</strong> - to delete spectrum point lower then factor  
+<strong>Change</strong> - to move spectrum to specified position  
+<strong>Equalizer</strong> - to multiply spectrum on linear function  
   
 ### How to compile:  
 g++ Obertor.cpp Music/Music.cpp -o Oberton  
