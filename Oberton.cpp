@@ -1,9 +1,7 @@
 #include <iostream>
-#include <cstdlib>
 #include <vector>
-#include <cmath>
-#include <iomanip>
 #include <fstream>
+#include <cmath>
 #include "Music/Music.h"
 
 double find_max(const std::vector<Complex> &vec) {
@@ -25,7 +23,7 @@ void oberton(std::vector<Complex> &vec, double percent) {
 		vec[i] = vec[i - vec.size() / 2];
 	}
 }
-//   ./Oberton input.wav sec per output.wav
+
 int main(int argc, char **argv) {
 	std::fstream music(argv[1]);
 	std::fstream output(argv[4], std::fstream::out | std::fstream::in | std::fstream::trunc | std::fstream::binary);
