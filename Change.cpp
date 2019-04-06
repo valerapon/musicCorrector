@@ -1,8 +1,5 @@
 #include <iostream>
-#include <cstdlib>
 #include <vector>
-#include <cmath>
-#include <iomanip>
 #include <fstream>
 #include "Music/Music.h"
 
