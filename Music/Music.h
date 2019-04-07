@@ -1,3 +1,6 @@
+#ifndef MUSIC_H
+#define MUSIC_H
+
 #include <iostream>
 #include <vector>
 
@@ -21,3 +24,5 @@ void fft(std::vector<Complex> &vec_f, bool invert);
 int find_max_2_power(int N);
 
 std::vector<Complex> parse(std::string str);
+
+#endif
