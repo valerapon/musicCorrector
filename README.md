@@ -6,9 +6,9 @@
   
 ### How to compile:  
 ```
-g++ Obertor.cpp Music/Music.cpp -o Oberton  
-g++ Change.cpp Music/Music.cpp -o Change  
-g++ Equalizer.cpp Music/Music.cpp -o Equalizer  
+g++ Obertor.cpp Music/Music.cpp -o Oberton -std=c++17   
+g++ Change.cpp Music/Music.cpp -o Change -std=c++17     
+g++ Equalizer.cpp Music/Music.cpp -o Equalizer -std=c++17    
 ```  
 ### How to run:  
 ```
